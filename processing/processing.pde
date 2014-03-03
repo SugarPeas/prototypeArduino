@@ -5,7 +5,7 @@ Serial secondArduinoPort;   //creates object "secondArduinoPort" of serial class
 void setup()
 {
   println(Serial.list()); //prints a list of open ports use this to doublecheck which port is which
-  /aqaq/also make sure to assign correct boud rate
+  //also make sure to assign correct boud rate
 
   //initialize serials 
   firstArduinoPort = new Serial(this, Serial.list()[3], 38400); //port 4 38400
