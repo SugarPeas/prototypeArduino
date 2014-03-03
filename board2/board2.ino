@@ -8,7 +8,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 }
 
-void loop() {www
+void loop() {
   // see if there's incoming serial data:
   if (Serial.available() > 0) {
     // read the oldest byte in the serial buffer:
